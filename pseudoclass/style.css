@@ -1,0 +1,46 @@
+/* Pseudo Class link*/
+.hello:link{
+    color: orange;
+}
+
+.hello:hover{
+    color: yellow;
+    font-family: tahoma;
+    font-size: 20px;
+}
+
+.hello:active{
+    font-style: italic;
+}
+
+.hello:visited{
+    color: brown;
+} 
+
+
+/* Pseudo Class parent child */
+/* li:first-child a{
+    color: green;
+}
+
+li:last-child a{
+    color: palegreen;
+} 
+
+li:nth-child(2n+1) a{
+    color: red;
+} */
+
+li:nth-child(odd) a{
+    color: red;
+}
+
+li:nth-child(odd) a:hover{
+    color: green;
+}
+
+
+/* first of type & last of type  (nth of type*/
+p:last-of-type{
+    color: red;
+}
